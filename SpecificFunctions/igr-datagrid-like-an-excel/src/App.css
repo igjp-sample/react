@@ -1,0 +1,6 @@
+.newrow {
+    display: flex;
+    gap: 10px;
+    margin: 0 0 10px;
+    align-items: center;
+}
