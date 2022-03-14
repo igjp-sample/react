@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div style={{ height: "500px", width: "500px", margin: "1rem", position: "relative" }}>
-      <IgrDataGrid dataSource={data} autoGenerateColumns="false">
+      <IgrDataGrid dataSource={data} autoGenerateColumns="false" selectionMode="MultipleRow">
         <IgrTextColumn field="id" headerText="ID 列"></IgrTextColumn>
         <IgrTextColumn field="name" headerText="名前列"></IgrTextColumn>
         <IgrTemplateColumn
